@@ -1,0 +1,31 @@
+
+.container {
+    position: relative;
+}
+
+.profile-card-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    width: auto;
+    z-index: 1;
+}
+
+.profile-card {
+    width: 250px; /* Adjust as needed */
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-md-6 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.table {
+    width: 100%;
+}
